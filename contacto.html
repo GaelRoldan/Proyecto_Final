@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Todo Explosión Contacto</title>
+	<meta name="description" content="Tienda de herramientas de alta calidad y al mejor precio">
+	<meta name="keywords" content="herramientas, tienda, motosierras, amoladora, herramientas de carpinteria, herramientas electricas, herramientas manuales">
+	<script src="https://kit.fontawesome.com/15c5354796.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<header>
+		<nav class="navegacion">
+			<ul class="navegacion__lista">
+				<li class="navegacion__item"><a href="index.html" class="navegacion__link">Inicio</a></li>
+				<li class="navegacion__item"><a href="productos.html" class="navegacion__link">Productos</a></li>
+				<li class="navegacion__item"><a href="mi cuenta.html" class="navegacion__link">Mi Cuenta</a></li>
+				<li class="navegacion__item"><a href="ayuda.html" class="navegacion__link">Ayuda</a></li>
+				<li class="navegacion__item"><a href="contacto.html" class="navegacion__link navegacion__link--active">Contacto</a></li>
+				<li class="navegacion__item"><a href="carrito de compra.html" class="navegacion__link"><img src="imagenes/shopping-cart.png"></a></li>
+			</ul>		
+		</nav>
+	</header>
+	<main>
+		<section>
+			<article class="container-fluid">
+				<form class="row justify-content-center mt-5">
+					<div class="col-md-4">
+						<div class="form-group row">
+						<label for="nombre" class="col-md-4 col-form-label">Nombre:</label>
+						<input type="text" name="nombre" class="form-control col-md-8">
+					</div>
+					<div class="form-group row">
+						<label for="apellido" class="col-md-4 col-form-label">Apellido:</label>
+						<input type="text" name="apellido" class="form-control col-md-8">
+					</div>
+					<div class="form-group row">
+						<label for="email" class="col-md-4 col-form-label">Email:</label>
+						<input type="email" name="email" class="form-control col-md-8">
+					</div>
+					<div class="form-group row">
+						<label for="motivo" class="col-md-4 col-form-label">Motivo:</label>
+						<select name="motivo" class="form-control col-md-8">
+						<option value="ayuda">Ayuda</option>
+						<option value="proveedor">Proveedor</option>
+						<option value="contratar">Contratar</option>
+						</select>
+					</div>
+					<div class="form-group row">
+						<div class="col-md-4">Posee usted cuenta:</div>
+						<div class="form-check col-md-8">
+							<label for="cuenta" class="form-check-label"></label>
+							<input type="checkbox" name="cuenta" value="1" class="form-check-input">
+						</div>
+					</div>
+					<div class="form-group row">
+						<input type="submit" name="submit" value="Enviar" class="btn btn-success ml-3">
+						<input type="reset" name="reset" value="Resetear" class="btn btn-danger ml-3">
+					</div>
+					</div>
+				</form>
+			</article>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__FlexItem">
+			<h1 class="footer__h1"><a href="contacto.html" class="footer__link">Trabajá con nosotros</a></h1>
+		</div>
+		<div class="footer__FlexItem">
+			<h1 class="footer__h1">Seguinos</h1>
+			<ul class="footer__list">
+				<li class="footer__item"><a href="#" class="footer__link"><i class="footer__icon fa fa-facebook"></i></a></li>
+				<li class="footer__item"><a href="#" class="footer__link"><i class="footer__icon fa fa-instagram"></i></a></li>
+				<li class="footer__item"><a href="#" class="footer__link"><i class="footer__icon fa fa-twitter"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer__FlexItem footer__FlexItem--border">
+			<h1 class="footer__h1"><a href="contacto.html" class="footer__link">Contactanos</a></h1>
+		</div>
+	</footer>
+</body>
+</html>
